@@ -5,7 +5,7 @@ import './styles/_main.scss';
 import Routes from './routes';
 
 ReactDOM.render(
-  <AppContainer>
+  <AppContainer className="test">
     <Routes />
   </AppContainer>,
   document.getElementById('root')
